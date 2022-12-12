@@ -1,0 +1,239 @@
+/*index.html*/
+@media (min-width: 1200px) {
+	h1, .h1 {
+	  font-size: 2.5rem;
+	}
+}
+a{
+	text-align: center;
+}
+body{
+	flex-wrap: wrap;
+}
+.btn-busqueda{
+	padding-top: 50px;
+	margin-left: 180px;
+}
+p{
+	color: #757575;
+	margin-top: 0px;
+}
+header{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #E5E8E8 ;
+}
+@media (min-width: 1200px) {
+	header .iconos{
+	  font-size: 2.5rem;
+	}
+  }
+
+.iconos{
+	display: flex;
+	margin-left: 250px;
+	margin-top: 30px;
+}
+#face{
+	padding: 0px;
+	margin: 0px;
+	margin-left: 7px;
+}
+#whatsapp{
+	margin-left: 58px;
+}
+.tarjetas{
+	display: flex;
+	margin-left: 10px;
+	margin-right: 15px;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.card{
+	margin: 10px;
+	justify-content: space-around;
+}
+.card-body{
+	background-color: #2D292A;
+	padding: 9px;
+}
+.subtitulo{
+	text-align: center;
+	margin-top: 20px;
+	font-family: Futura Std Bold Condensed;
+}
+.card-title{
+	color: black;
+}
+.precio{
+	color: black;
+}
+
+.marcas, .marcas1, .marcas2, .marcas3, .marcas4 { 
+	display: inline-flex;
+	margin: 20px;
+	padding-left: 80px;
+	text-align: center;
+	flex-wrap: wrap;	
+}
+.row{
+	display: flex;
+}
+
+
+/*index.html*/
+
+/*Quienes Somos*/
+h1{
+	font-family: Futura Std Extra Bold Condensed;
+	display: block;
+	font-size: 4.8125rem;
+	margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h4{
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+h1,h2,h4{
+	font-family: Futura Std Extra Bold Condesend;
+	line-height: 1.2em;
+	margin: 0;
+	color: #0a0a0a;
+}
+h2{
+	font-size: 2.875rem;;
+}
+.grid{
+	display: flex;
+	border-radius: 10px;
+	margin: 30px 15px;
+	padding: 15px;
+	text-align: center;
+}
+.card{
+	box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%);
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+.somos{
+	align-items: center!important;
+}
+.parrafo{
+	font-size: 1rem;
+	font-family: Futura Std Book,sans-serif;
+	color: black;
+}
+/* estilo de productos */
+h2{
+	text-align: center;
+}
+.img-fluid{
+ 	max-width: 100%;
+	height: auto;
+	padding-left: 5px;
+}
+.imag{
+	padding: 10px;
+}
+/* estilo de contacto y ubicacion*/
+#nuestraubicacion{
+	font-size: larger;
+	font-family: "Jost", sans-serif;
+	line-height: 1.2;
+}
+.text-secondary {
+    color: #F14D5D !important;
+}
+.bg-light{
+	background-color: #ECF4FF !important;
+}
+h6{
+	font-size: 1rem;
+}
+.display-4{
+	font-family: "Jost", sans-serif;
+}
+.was-validated .form-control:valid, .form-control.is-valid {
+	border-color: #28a745;
+	padding-right: calc(1.5em + 0.75rem);
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+	background-repeat: no-repeat;
+	background-position: right calc(0.375em + 0.1875rem) center;
+	background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+.btn-icon{
+	width: 77px;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.text-white{
+	color: #fff !important;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas{
+    font-family: "Font Awesome 5 Free";
+}
+.fa-2x {
+    font-size: 2em;
+}
+.a-2x {
+    font-size: 2em;
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.footer{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background-color: #2c3e50;
+	color: #fff;
+	width: 100%;
+}
+.text-center {
+    text-align: center !important;
+}
+.copyright {
+    background-color: #1a252f;
+}
+.lead{
+	color: #E5E8E8;
+}
+.text-uppercase{
+	color: white;
+}
+.fab{
+	color: white;
+	font-family: "Font Awesome 5 Brands";
+}
+.fa-facebook-f{
+	color: white;
+}
+.text-white{
+	color: white;
+}
+footer{
+	width: 100%;
+}
+.text-center{
+	width: 100%;
+}
+.descripcion{
+	color: white;
+}
