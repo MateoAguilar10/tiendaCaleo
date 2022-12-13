@@ -237,3 +237,15 @@ footer{
 .descripcion{
 	color: white;
 }
+.whatsapp{
+	position: fixed;
+	right: 100px;
+	bottom: 100px;
+	width: 60px;
+	z-index: 1000;
+}
+  
+.whatsapp img{
+	width: 120%;
+	height: auto;
+}
